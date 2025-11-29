@@ -30,9 +30,15 @@ This project was created as a learning experience in game development using Godo
 Download This Project and Import To Godot
 
 
-## Credit
+## ©Credit
 Thanks To @Brackeys from Youtube i use his sprites and more from him
 Subscribe to Him: youtube.com/@Brackeys
 
 I will update this game if im not lazy to do it
 ❤
+
+--- 
+
+## 📞Social
+Youtube: SubarGaming17
+Instagram: subarr17
