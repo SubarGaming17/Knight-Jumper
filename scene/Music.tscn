@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://86oxgq5bq32q"]
+
+[ext_resource type="AudioStream" uid="uid://cqnrap3oyhrhv" path="res://assets/brackeys_platformer_assets/bgm/bapak-mulyono-jokowi.mp3" id="1_dhmm1"]
+
+[node name="Music | Bapak Mulyono" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_dhmm1")
+autoplay = true
+bus = &"Music"

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ujt3of2pexi2"
+path="res://.godot/imported/comedy-male-yelling-yee-ha-sound-effects-free-download-mp3cut.mp3-513b992cbc13ef5d4c223e8e52751068.mp3str"
+
+[deps]
+
+source_file="res://assets/brackeys_platformer_assets/meme sfx/comedy-male-yelling-yee-ha-sound-effects-free-download-mp3cut.mp3"
+dest_files=["res://.godot/imported/comedy-male-yelling-yee-ha-sound-effects-free-download-mp3cut.mp3-513b992cbc13ef5d4c223e8e52751068.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

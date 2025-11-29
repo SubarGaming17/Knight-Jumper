@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1km28qs8jfle"
+path="res://.godot/imported/vine-boom.mp3-8aa5217508a611fa1fb10cdf3f469300.mp3str"
+
+[deps]
+
+source_file="res://assets/brackeys_platformer_assets/meme sfx/vine-boom.mp3"
+dest_files=["res://.godot/imported/vine-boom.mp3-8aa5217508a611fa1fb10cdf3f469300.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

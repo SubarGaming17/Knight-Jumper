@@ -1,0 +1,67 @@
+[gd_scene load_steps=10 format=3 uid="uid://cwfl5rquohkpo"]
+
+[ext_resource type="Script" uid="uid://da5obxuhgudw7" path="res://script/player_null.gd" id="1_duspq"]
+[ext_resource type="Texture2D" uid="uid://25hkjmxuebye" path="res://assets/brackeys_platformer_assets/sprites/null_entity_00 2-1eae.png" id="1_jeui3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_duspq"]
+atlas = ExtResource("1_jeui3")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qki88"]
+atlas = ExtResource("1_jeui3")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8tkl"]
+atlas = ExtResource("1_jeui3")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kha63"]
+atlas = ExtResource("1_jeui3")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1elb"]
+atlas = ExtResource("1_jeui3")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w6r6x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_duspq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qki88")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8tkl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kha63")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1elb")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uxj3v"]
+size = Vector2(23, 50)
+
+[node name="player null" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_duspq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 5
+sprite_frames = SubResource("SpriteFrames_w6r6x")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.113271095
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, 7)
+shape = SubResource("RectangleShape2D_uxj3v")
+debug_color = Color(0.08235294, 1, 0.1764706, 0.41960785)

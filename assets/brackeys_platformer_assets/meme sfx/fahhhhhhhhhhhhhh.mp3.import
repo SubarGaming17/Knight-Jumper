@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bj1yy5tek6bnh"
+path="res://.godot/imported/fahhhhhhhhhhhhhh.mp3-b1a78bd12ceaff7b95261b8926c407f4.mp3str"
+
+[deps]
+
+source_file="res://assets/brackeys_platformer_assets/meme sfx/fahhhhhhhhhhhhhh.mp3"
+dest_files=["res://.godot/imported/fahhhhhhhhhhhhhh.mp3-b1a78bd12ceaff7b95261b8926c407f4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
